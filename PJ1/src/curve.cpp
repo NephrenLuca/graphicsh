@@ -5,6 +5,12 @@ using namespace std;
 
 const float c_pi = 3.14159265358979323846f;
 
+// Runtime flag: when true, swap the colors used for B and T axes in
+// recordCurveFrames. Set via setSwapCurveBG() (command-line flag in main.cpp).
+static bool g_swapCurveBG = false;
+
+void setSwapCurveBG(bool swap) { g_swapCurveBG = swap; }
+
 namespace
 {
 // Approximately equal to.  We don't want to use == because of
@@ -35,11 +41,20 @@ void computeFrames(Curve& curve, bool flat)
 		return;
 	}
 
-	// 3D: initialize first frame
+	// 3D: initialize first frame.
+	// Use the projection of world +Z onto the plane perpendicular to T0 as B0.
+	// This matches sample_solution/athena/a1. (pj1.md slide 12 allows an arbitrary
+	// B0 as long as it is not parallel to T1; the (0,0,1) x T1 form there is only
+	// an example.) With the projection form, the distribution of the closure-
+	// correction rotation better preserves features such as concavities (e.g. the
+	// middle dip of weirder.swp).
 	Vector3f T0 = curve[0].T;
-	Vector3f B0 = Vector3f::cross(Vector3f(0, 0, 1), T0);
-	if (B0.absSquared() < 1e-8f)
-		B0 = Vector3f::cross(Vector3f(1, 0, 0), T0);
+	const Vector3f kz(0, 0, 1);
+	Vector3f B0 = kz - Vector3f::dot(kz, T0) * T0;
+	if (B0.absSquared() < 1e-8f) {
+		const Vector3f kx(1, 0, 0);
+		B0 = kx - Vector3f::dot(kx, T0) * T0;
+	}
 	B0.normalize();
 	curve[0].N = Vector3f::cross(B0, T0).normalized();
 	curve[0].B = B0;
@@ -85,7 +100,7 @@ Curve evalBezier(const vector< Vector3f >& P, unsigned steps)
 	if (P.size() < 4 || P.size() % 3 != 1)
 	{
 		cerr << "evalBezier must be called with 3n+1 control points." << endl;
-		exit(0);
+		return Curve();
 	}
 
 	bool flat = isCurve2D(P);
@@ -126,7 +141,7 @@ Curve evalBspline(const vector< Vector3f >& P, unsigned steps)
 	if (P.size() < 4)
 	{
 		cerr << "evalBspline must be called with 4 or more control points." << endl;
-		exit(0);
+		return Curve();
 	}
 
 	// Convert B-spline to Bezier using basis change: G_bez = M_bez^{-1} * M_bsp * G_bsp
@@ -200,7 +215,12 @@ void recordCurveFrames(const Curve& curve, VertexRecorder* recorder, float frame
 	const Vector3f RED(1, 0, 0);
 	const Vector3f GREEN(0, 1, 0);
 	const Vector3f BLUE(0, 0, 1);
-	
+
+	// Per pj1.md slide 8: N=red, T=green, B=blue.
+	// With --swap-bg, swap B/T colors: N=red, B=green, T=blue (matches sample).
+	const Vector3f colorB = g_swapCurveBG ? GREEN : BLUE;
+	const Vector3f colorT = g_swapCurveBG ? BLUE  : GREEN;
+
 	const Vector4f ORGN(0, 0, 0, 1);
 	const Vector4f AXISX(framesize, 0, 0, 1);
 	const Vector4f AXISY(0, framesize, 0, 1);
@@ -220,14 +240,17 @@ void recordCurveFrames(const Curve& curve, VertexRecorder* recorder, float frame
 		Vector4f MAXISZ = T * AXISZ;
 
 		// Record in model space
+		// N (column 0, AXISX direction) -> RED
 		recorder->record_poscolor(MORGN.xyz(), RED);
 		recorder->record_poscolor(MAXISX.xyz(), RED);
 
-		recorder->record_poscolor(MORGN.xyz(), GREEN);
-		recorder->record_poscolor(MAXISY.xyz(), GREEN);
+		// B (column 1, AXISY direction) -> BLUE  (or GREEN if --swap-bg)
+		recorder->record_poscolor(MORGN.xyz(), colorB);
+		recorder->record_poscolor(MAXISY.xyz(), colorB);
 
-		recorder->record_poscolor(MORGN.xyz(), BLUE);
-		recorder->record_poscolor(MAXISZ.xyz(), BLUE);
+		// T (column 2, AXISZ direction) -> GREEN (or BLUE if --swap-bg)
+		recorder->record_poscolor(MORGN.xyz(), colorT);
+		recorder->record_poscolor(MAXISZ.xyz(), colorT);
 	}
 }
 

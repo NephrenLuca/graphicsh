@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/graphicsh
+CMAKE_SOURCE_DIR = /home/ling/graphicsh/PJ1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/graphicsh/build
+CMAKE_BINARY_DIR = /home/ling/graphicsh/PJ1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/a1.dir/depend.make
@@ -70,116 +70,116 @@ include CMakeFiles/a1.dir/progress.make
 include CMakeFiles/a1.dir/flags.make
 
 CMakeFiles/a1.dir/glew/src/glew.c.o: CMakeFiles/a1.dir/flags.make
-CMakeFiles/a1.dir/glew/src/glew.c.o: /home/ling/graphicsh/glew/src/glew.c
+CMakeFiles/a1.dir/glew/src/glew.c.o: /home/ling/graphicsh/PJ1/glew/src/glew.c
 CMakeFiles/a1.dir/glew/src/glew.c.o: CMakeFiles/a1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/a1.dir/glew/src/glew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/a1.dir/glew/src/glew.c.o -MF CMakeFiles/a1.dir/glew/src/glew.c.o.d -o CMakeFiles/a1.dir/glew/src/glew.c.o -c /home/ling/graphicsh/glew/src/glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/a1.dir/glew/src/glew.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/a1.dir/glew/src/glew.c.o -MF CMakeFiles/a1.dir/glew/src/glew.c.o.d -o CMakeFiles/a1.dir/glew/src/glew.c.o -c /home/ling/graphicsh/PJ1/glew/src/glew.c
 
 CMakeFiles/a1.dir/glew/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/a1.dir/glew/src/glew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glew/src/glew.c > CMakeFiles/a1.dir/glew/src/glew.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glew/src/glew.c > CMakeFiles/a1.dir/glew/src/glew.c.i
 
 CMakeFiles/a1.dir/glew/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/a1.dir/glew/src/glew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glew/src/glew.c -o CMakeFiles/a1.dir/glew/src/glew.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glew/src/glew.c -o CMakeFiles/a1.dir/glew/src/glew.c.s
 
 CMakeFiles/a1.dir/src/main.cpp.o: CMakeFiles/a1.dir/flags.make
-CMakeFiles/a1.dir/src/main.cpp.o: /home/ling/graphicsh/src/main.cpp
+CMakeFiles/a1.dir/src/main.cpp.o: /home/ling/graphicsh/PJ1/src/main.cpp
 CMakeFiles/a1.dir/src/main.cpp.o: CMakeFiles/a1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a1.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/main.cpp.o -MF CMakeFiles/a1.dir/src/main.cpp.o.d -o CMakeFiles/a1.dir/src/main.cpp.o -c /home/ling/graphicsh/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/a1.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/main.cpp.o -MF CMakeFiles/a1.dir/src/main.cpp.o.d -o CMakeFiles/a1.dir/src/main.cpp.o -c /home/ling/graphicsh/PJ1/src/main.cpp
 
 CMakeFiles/a1.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a1.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/src/main.cpp > CMakeFiles/a1.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/PJ1/src/main.cpp > CMakeFiles/a1.dir/src/main.cpp.i
 
 CMakeFiles/a1.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a1.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/src/main.cpp -o CMakeFiles/a1.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/PJ1/src/main.cpp -o CMakeFiles/a1.dir/src/main.cpp.s
 
 CMakeFiles/a1.dir/src/camera.cpp.o: CMakeFiles/a1.dir/flags.make
-CMakeFiles/a1.dir/src/camera.cpp.o: /home/ling/graphicsh/src/camera.cpp
+CMakeFiles/a1.dir/src/camera.cpp.o: /home/ling/graphicsh/PJ1/src/camera.cpp
 CMakeFiles/a1.dir/src/camera.cpp.o: CMakeFiles/a1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a1.dir/src/camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/camera.cpp.o -MF CMakeFiles/a1.dir/src/camera.cpp.o.d -o CMakeFiles/a1.dir/src/camera.cpp.o -c /home/ling/graphicsh/src/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/a1.dir/src/camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/camera.cpp.o -MF CMakeFiles/a1.dir/src/camera.cpp.o.d -o CMakeFiles/a1.dir/src/camera.cpp.o -c /home/ling/graphicsh/PJ1/src/camera.cpp
 
 CMakeFiles/a1.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a1.dir/src/camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/src/camera.cpp > CMakeFiles/a1.dir/src/camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/PJ1/src/camera.cpp > CMakeFiles/a1.dir/src/camera.cpp.i
 
 CMakeFiles/a1.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a1.dir/src/camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/src/camera.cpp -o CMakeFiles/a1.dir/src/camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/PJ1/src/camera.cpp -o CMakeFiles/a1.dir/src/camera.cpp.s
 
 CMakeFiles/a1.dir/src/curve.cpp.o: CMakeFiles/a1.dir/flags.make
-CMakeFiles/a1.dir/src/curve.cpp.o: /home/ling/graphicsh/src/curve.cpp
+CMakeFiles/a1.dir/src/curve.cpp.o: /home/ling/graphicsh/PJ1/src/curve.cpp
 CMakeFiles/a1.dir/src/curve.cpp.o: CMakeFiles/a1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a1.dir/src/curve.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/curve.cpp.o -MF CMakeFiles/a1.dir/src/curve.cpp.o.d -o CMakeFiles/a1.dir/src/curve.cpp.o -c /home/ling/graphicsh/src/curve.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/a1.dir/src/curve.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/curve.cpp.o -MF CMakeFiles/a1.dir/src/curve.cpp.o.d -o CMakeFiles/a1.dir/src/curve.cpp.o -c /home/ling/graphicsh/PJ1/src/curve.cpp
 
 CMakeFiles/a1.dir/src/curve.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a1.dir/src/curve.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/src/curve.cpp > CMakeFiles/a1.dir/src/curve.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/PJ1/src/curve.cpp > CMakeFiles/a1.dir/src/curve.cpp.i
 
 CMakeFiles/a1.dir/src/curve.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a1.dir/src/curve.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/src/curve.cpp -o CMakeFiles/a1.dir/src/curve.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/PJ1/src/curve.cpp -o CMakeFiles/a1.dir/src/curve.cpp.s
 
 CMakeFiles/a1.dir/src/parse.cpp.o: CMakeFiles/a1.dir/flags.make
-CMakeFiles/a1.dir/src/parse.cpp.o: /home/ling/graphicsh/src/parse.cpp
+CMakeFiles/a1.dir/src/parse.cpp.o: /home/ling/graphicsh/PJ1/src/parse.cpp
 CMakeFiles/a1.dir/src/parse.cpp.o: CMakeFiles/a1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a1.dir/src/parse.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/parse.cpp.o -MF CMakeFiles/a1.dir/src/parse.cpp.o.d -o CMakeFiles/a1.dir/src/parse.cpp.o -c /home/ling/graphicsh/src/parse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/a1.dir/src/parse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/parse.cpp.o -MF CMakeFiles/a1.dir/src/parse.cpp.o.d -o CMakeFiles/a1.dir/src/parse.cpp.o -c /home/ling/graphicsh/PJ1/src/parse.cpp
 
 CMakeFiles/a1.dir/src/parse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a1.dir/src/parse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/src/parse.cpp > CMakeFiles/a1.dir/src/parse.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/PJ1/src/parse.cpp > CMakeFiles/a1.dir/src/parse.cpp.i
 
 CMakeFiles/a1.dir/src/parse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a1.dir/src/parse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/src/parse.cpp -o CMakeFiles/a1.dir/src/parse.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/PJ1/src/parse.cpp -o CMakeFiles/a1.dir/src/parse.cpp.s
 
 CMakeFiles/a1.dir/src/starter1_util.cpp.o: CMakeFiles/a1.dir/flags.make
-CMakeFiles/a1.dir/src/starter1_util.cpp.o: /home/ling/graphicsh/src/starter1_util.cpp
+CMakeFiles/a1.dir/src/starter1_util.cpp.o: /home/ling/graphicsh/PJ1/src/starter1_util.cpp
 CMakeFiles/a1.dir/src/starter1_util.cpp.o: CMakeFiles/a1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a1.dir/src/starter1_util.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/starter1_util.cpp.o -MF CMakeFiles/a1.dir/src/starter1_util.cpp.o.d -o CMakeFiles/a1.dir/src/starter1_util.cpp.o -c /home/ling/graphicsh/src/starter1_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/a1.dir/src/starter1_util.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/starter1_util.cpp.o -MF CMakeFiles/a1.dir/src/starter1_util.cpp.o.d -o CMakeFiles/a1.dir/src/starter1_util.cpp.o -c /home/ling/graphicsh/PJ1/src/starter1_util.cpp
 
 CMakeFiles/a1.dir/src/starter1_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a1.dir/src/starter1_util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/src/starter1_util.cpp > CMakeFiles/a1.dir/src/starter1_util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/PJ1/src/starter1_util.cpp > CMakeFiles/a1.dir/src/starter1_util.cpp.i
 
 CMakeFiles/a1.dir/src/starter1_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a1.dir/src/starter1_util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/src/starter1_util.cpp -o CMakeFiles/a1.dir/src/starter1_util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/PJ1/src/starter1_util.cpp -o CMakeFiles/a1.dir/src/starter1_util.cpp.s
 
 CMakeFiles/a1.dir/src/surf.cpp.o: CMakeFiles/a1.dir/flags.make
-CMakeFiles/a1.dir/src/surf.cpp.o: /home/ling/graphicsh/src/surf.cpp
+CMakeFiles/a1.dir/src/surf.cpp.o: /home/ling/graphicsh/PJ1/src/surf.cpp
 CMakeFiles/a1.dir/src/surf.cpp.o: CMakeFiles/a1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a1.dir/src/surf.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/surf.cpp.o -MF CMakeFiles/a1.dir/src/surf.cpp.o.d -o CMakeFiles/a1.dir/src/surf.cpp.o -c /home/ling/graphicsh/src/surf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/a1.dir/src/surf.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/surf.cpp.o -MF CMakeFiles/a1.dir/src/surf.cpp.o.d -o CMakeFiles/a1.dir/src/surf.cpp.o -c /home/ling/graphicsh/PJ1/src/surf.cpp
 
 CMakeFiles/a1.dir/src/surf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a1.dir/src/surf.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/src/surf.cpp > CMakeFiles/a1.dir/src/surf.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/PJ1/src/surf.cpp > CMakeFiles/a1.dir/src/surf.cpp.i
 
 CMakeFiles/a1.dir/src/surf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a1.dir/src/surf.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/src/surf.cpp -o CMakeFiles/a1.dir/src/surf.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/PJ1/src/surf.cpp -o CMakeFiles/a1.dir/src/surf.cpp.s
 
 CMakeFiles/a1.dir/src/vertexrecorder.cpp.o: CMakeFiles/a1.dir/flags.make
-CMakeFiles/a1.dir/src/vertexrecorder.cpp.o: /home/ling/graphicsh/src/vertexrecorder.cpp
+CMakeFiles/a1.dir/src/vertexrecorder.cpp.o: /home/ling/graphicsh/PJ1/src/vertexrecorder.cpp
 CMakeFiles/a1.dir/src/vertexrecorder.cpp.o: CMakeFiles/a1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a1.dir/src/vertexrecorder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/vertexrecorder.cpp.o -MF CMakeFiles/a1.dir/src/vertexrecorder.cpp.o.d -o CMakeFiles/a1.dir/src/vertexrecorder.cpp.o -c /home/ling/graphicsh/src/vertexrecorder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/a1.dir/src/vertexrecorder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/a1.dir/src/vertexrecorder.cpp.o -MF CMakeFiles/a1.dir/src/vertexrecorder.cpp.o.d -o CMakeFiles/a1.dir/src/vertexrecorder.cpp.o -c /home/ling/graphicsh/PJ1/src/vertexrecorder.cpp
 
 CMakeFiles/a1.dir/src/vertexrecorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a1.dir/src/vertexrecorder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/src/vertexrecorder.cpp > CMakeFiles/a1.dir/src/vertexrecorder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ling/graphicsh/PJ1/src/vertexrecorder.cpp > CMakeFiles/a1.dir/src/vertexrecorder.cpp.i
 
 CMakeFiles/a1.dir/src/vertexrecorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a1.dir/src/vertexrecorder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/src/vertexrecorder.cpp -o CMakeFiles/a1.dir/src/vertexrecorder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ling/graphicsh/PJ1/src/vertexrecorder.cpp -o CMakeFiles/a1.dir/src/vertexrecorder.cpp.s
 
 # Object files for target a1
 a1_OBJECTS = \
@@ -215,7 +215,7 @@ a1: /usr/lib/x86_64-linux-gnu/libXinerama.so
 a1: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 a1: /usr/lib/x86_64-linux-gnu/libXcursor.so
 a1: CMakeFiles/a1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable a1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable a1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -227,6 +227,6 @@ CMakeFiles/a1.dir/clean:
 .PHONY : CMakeFiles/a1.dir/clean
 
 CMakeFiles/a1.dir/depend:
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh /home/ling/graphicsh /home/ling/graphicsh/build /home/ling/graphicsh/build /home/ling/graphicsh/build/CMakeFiles/a1.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh/PJ1 /home/ling/graphicsh/PJ1 /home/ling/graphicsh/PJ1/build /home/ling/graphicsh/PJ1/build /home/ling/graphicsh/PJ1/build/CMakeFiles/a1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/a1.dir/depend
 

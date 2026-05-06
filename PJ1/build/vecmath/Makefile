@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/graphicsh
+CMAKE_SOURCE_DIR = /home/ling/graphicsh/PJ1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/graphicsh/build
+CMAKE_BINARY_DIR = /home/ling/graphicsh/PJ1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ling/graphicsh/build/CMakeFiles /home/ling/graphicsh/build/vecmath//CMakeFiles/progress.marks
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vecmath/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ling/graphicsh/build/CMakeFiles 0
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ling/graphicsh/PJ1/build/CMakeFiles /home/ling/graphicsh/PJ1/build/vecmath//CMakeFiles/progress.marks
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vecmath/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ling/graphicsh/PJ1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vecmath/clean
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vecmath/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vecmath/preinstall
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vecmath/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vecmath/preinstall
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vecmath/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 vecmath/CMakeFiles/vecmath.dir/rule:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vecmath/CMakeFiles/vecmath.dir/rule
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vecmath/CMakeFiles/vecmath.dir/rule
 .PHONY : vecmath/CMakeFiles/vecmath.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ vecmath: vecmath/CMakeFiles/vecmath.dir/rule
 
 # fast build rule for target.
 vecmath/fast:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/build
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/build
 .PHONY : vecmath/fast
 
 Matrix2f.o: Matrix2f.cpp.o
@@ -180,7 +180,7 @@ Matrix2f.o: Matrix2f.cpp.o
 
 # target to build an object file
 Matrix2f.cpp.o:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.o
 .PHONY : Matrix2f.cpp.o
 
 Matrix2f.i: Matrix2f.cpp.i
@@ -188,7 +188,7 @@ Matrix2f.i: Matrix2f.cpp.i
 
 # target to preprocess a source file
 Matrix2f.cpp.i:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.i
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.i
 .PHONY : Matrix2f.cpp.i
 
 Matrix2f.s: Matrix2f.cpp.s
@@ -196,7 +196,7 @@ Matrix2f.s: Matrix2f.cpp.s
 
 # target to generate assembly for a file
 Matrix2f.cpp.s:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.s
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix2f.cpp.s
 .PHONY : Matrix2f.cpp.s
 
 Matrix3f.o: Matrix3f.cpp.o
@@ -204,7 +204,7 @@ Matrix3f.o: Matrix3f.cpp.o
 
 # target to build an object file
 Matrix3f.cpp.o:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.o
 .PHONY : Matrix3f.cpp.o
 
 Matrix3f.i: Matrix3f.cpp.i
@@ -212,7 +212,7 @@ Matrix3f.i: Matrix3f.cpp.i
 
 # target to preprocess a source file
 Matrix3f.cpp.i:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.i
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.i
 .PHONY : Matrix3f.cpp.i
 
 Matrix3f.s: Matrix3f.cpp.s
@@ -220,7 +220,7 @@ Matrix3f.s: Matrix3f.cpp.s
 
 # target to generate assembly for a file
 Matrix3f.cpp.s:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.s
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix3f.cpp.s
 .PHONY : Matrix3f.cpp.s
 
 Matrix4f.o: Matrix4f.cpp.o
@@ -228,7 +228,7 @@ Matrix4f.o: Matrix4f.cpp.o
 
 # target to build an object file
 Matrix4f.cpp.o:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.o
 .PHONY : Matrix4f.cpp.o
 
 Matrix4f.i: Matrix4f.cpp.i
@@ -236,7 +236,7 @@ Matrix4f.i: Matrix4f.cpp.i
 
 # target to preprocess a source file
 Matrix4f.cpp.i:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.i
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.i
 .PHONY : Matrix4f.cpp.i
 
 Matrix4f.s: Matrix4f.cpp.s
@@ -244,7 +244,7 @@ Matrix4f.s: Matrix4f.cpp.s
 
 # target to generate assembly for a file
 Matrix4f.cpp.s:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.s
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Matrix4f.cpp.s
 .PHONY : Matrix4f.cpp.s
 
 Quat4f.o: Quat4f.cpp.o
@@ -252,7 +252,7 @@ Quat4f.o: Quat4f.cpp.o
 
 # target to build an object file
 Quat4f.cpp.o:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o
 .PHONY : Quat4f.cpp.o
 
 Quat4f.i: Quat4f.cpp.i
@@ -260,7 +260,7 @@ Quat4f.i: Quat4f.cpp.i
 
 # target to preprocess a source file
 Quat4f.cpp.i:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.i
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.i
 .PHONY : Quat4f.cpp.i
 
 Quat4f.s: Quat4f.cpp.s
@@ -268,7 +268,7 @@ Quat4f.s: Quat4f.cpp.s
 
 # target to generate assembly for a file
 Quat4f.cpp.s:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.s
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.s
 .PHONY : Quat4f.cpp.s
 
 Vector2f.o: Vector2f.cpp.o
@@ -276,7 +276,7 @@ Vector2f.o: Vector2f.cpp.o
 
 # target to build an object file
 Vector2f.cpp.o:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.o
 .PHONY : Vector2f.cpp.o
 
 Vector2f.i: Vector2f.cpp.i
@@ -284,7 +284,7 @@ Vector2f.i: Vector2f.cpp.i
 
 # target to preprocess a source file
 Vector2f.cpp.i:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.i
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.i
 .PHONY : Vector2f.cpp.i
 
 Vector2f.s: Vector2f.cpp.s
@@ -292,7 +292,7 @@ Vector2f.s: Vector2f.cpp.s
 
 # target to generate assembly for a file
 Vector2f.cpp.s:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.s
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector2f.cpp.s
 .PHONY : Vector2f.cpp.s
 
 Vector3f.o: Vector3f.cpp.o
@@ -300,7 +300,7 @@ Vector3f.o: Vector3f.cpp.o
 
 # target to build an object file
 Vector3f.cpp.o:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.o
 .PHONY : Vector3f.cpp.o
 
 Vector3f.i: Vector3f.cpp.i
@@ -308,7 +308,7 @@ Vector3f.i: Vector3f.cpp.i
 
 # target to preprocess a source file
 Vector3f.cpp.i:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.i
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.i
 .PHONY : Vector3f.cpp.i
 
 Vector3f.s: Vector3f.cpp.s
@@ -316,7 +316,7 @@ Vector3f.s: Vector3f.cpp.s
 
 # target to generate assembly for a file
 Vector3f.cpp.s:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.s
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector3f.cpp.s
 .PHONY : Vector3f.cpp.s
 
 Vector4f.o: Vector4f.cpp.o
@@ -324,7 +324,7 @@ Vector4f.o: Vector4f.cpp.o
 
 # target to build an object file
 Vector4f.cpp.o:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.o
 .PHONY : Vector4f.cpp.o
 
 Vector4f.i: Vector4f.cpp.i
@@ -332,7 +332,7 @@ Vector4f.i: Vector4f.cpp.i
 
 # target to preprocess a source file
 Vector4f.cpp.i:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.i
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.i
 .PHONY : Vector4f.cpp.i
 
 Vector4f.s: Vector4f.cpp.s
@@ -340,7 +340,7 @@ Vector4f.s: Vector4f.cpp.s
 
 # target to generate assembly for a file
 Vector4f.cpp.s:
-	cd /home/ling/graphicsh/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.s
+	cd /home/ling/graphicsh/PJ1/build && $(MAKE) $(MAKESILENT) -f vecmath/CMakeFiles/vecmath.dir/build.make vecmath/CMakeFiles/vecmath.dir/Vector4f.cpp.s
 .PHONY : Vector4f.cpp.s
 
 # Help Target
@@ -388,6 +388,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

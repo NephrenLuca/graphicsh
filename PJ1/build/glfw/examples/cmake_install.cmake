@@ -1,4 +1,4 @@
-# Install script for directory: /home/ling/graphicsh/glfw/examples
+# Install script for directory: /home/ling/graphicsh/PJ1/glfw/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,5 +1,5 @@
 glfw/examples/CMakeFiles/simple.dir/__/deps/glad.c.o: \
- /home/ling/graphicsh/glfw/deps/glad.c /usr/include/stdc-predef.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/glad.c /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,8 +51,8 @@ glfw/examples/CMakeFiles/simple.dir/__/deps/glad.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /home/ling/graphicsh/glfw/deps/glad/glad.h \
- /home/ling/graphicsh/glfw/deps/KHR/khrplatform.h \
+ /usr/include/strings.h /home/ling/graphicsh/PJ1/glfw/deps/glad/glad.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

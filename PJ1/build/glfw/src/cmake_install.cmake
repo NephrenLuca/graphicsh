@@ -1,4 +1,4 @@
-# Install script for directory: /home/ling/graphicsh/glfw/src
+# Install script for directory: /home/ling/graphicsh/PJ1/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,10 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ling/graphicsh/build/glfw/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ling/graphicsh/PJ1/build/glfw/src/libglfw3.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ling/graphicsh/build/glfw/src/CMakeFiles/glfw.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/ling/graphicsh/PJ1/build/glfw/src/CMakeFiles/glfw.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 

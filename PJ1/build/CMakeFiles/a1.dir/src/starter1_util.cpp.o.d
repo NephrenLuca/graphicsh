@@ -1,6 +1,7 @@
 CMakeFiles/a1.dir/src/starter1_util.cpp.o: \
- /home/ling/graphicsh/src/starter1_util.cpp /usr/include/stdc-predef.h \
- /home/ling/graphicsh/src/starter1_util.h /usr/include/c++/13/cstdint \
+ /home/ling/graphicsh/PJ1/src/starter1_util.cpp \
+ /usr/include/stdc-predef.h /home/ling/graphicsh/PJ1/src/starter1_util.h \
+ /usr/include/c++/13/cstdint \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -20,10 +21,10 @@ CMakeFiles/a1.dir/src/starter1_util.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/ling/graphicsh/src/gl.h \
- /home/ling/graphicsh/glew/include/GL/glew.h \
+ /home/ling/graphicsh/PJ1/src/gl.h \
+ /home/ling/graphicsh/PJ1/glew/include/GL/glew.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/GL/glu.h \
- /usr/include/GL/gl.h /home/ling/graphicsh/glfw/include/GLFW/glfw3.h \
+ /usr/include/GL/gl.h /home/ling/graphicsh/PJ1/glfw/include/GLFW/glfw3.h \
  /usr/include/c++/13/cstdio /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \

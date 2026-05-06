@@ -47,4 +47,11 @@ void recordCurve( const Curve& curve, VertexRecorder* recorder);
 // Record the curve's associated coordinate frames
 void recordCurveFrames( const Curve& curve, VertexRecorder* recorder, float framesize);
 
+// If set to true, swap the colors used for the Binormal (B) and Tangent (T)
+// axes in recordCurveFrames. Default is per pj1.md slide 8: N=red, T=green,
+// B=blue. Some reference solutions use the alternative mapping N=red,
+// B=green, T=blue; this switch exists to match them for side-by-side
+// comparison without editing source code.
+void setSwapCurveBG(bool swap);
+
 #endif

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/ling/graphicsh/glfw/include -I/home/ling/graphicsh/glfw/src -I/home/ling/graphicsh/build/glfw/src
+C_INCLUDES = -I/home/ling/graphicsh/PJ1/glfw/include -I/home/ling/graphicsh/PJ1/glfw/src -I/home/ling/graphicsh/PJ1/build/glfw/src
 
 C_FLAGS = -fPIC -Wall
 

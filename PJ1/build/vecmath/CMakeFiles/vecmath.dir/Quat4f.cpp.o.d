@@ -1,5 +1,5 @@
 vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o: \
- /home/ling/graphicsh/vecmath/Quat4f.cpp /usr/include/stdc-predef.h \
+ /home/ling/graphicsh/PJ1/vecmath/Quat4f.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -67,7 +67,7 @@ vecmath/CMakeFiles/vecmath.dir/Quat4f.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /home/ling/graphicsh/vecmath/include/Quat4f.h \
- /home/ling/graphicsh/vecmath/include/Matrix3f.h \
- /home/ling/graphicsh/vecmath/include/Vector3f.h \
- /home/ling/graphicsh/vecmath/include/Vector4f.h
+ /home/ling/graphicsh/PJ1/vecmath/include/Quat4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix3f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector3f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector4f.h

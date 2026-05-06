@@ -1,7 +1,7 @@
 CMakeFiles/a1.dir/src/vertexrecorder.cpp.o: \
- /home/ling/graphicsh/src/vertexrecorder.cpp /usr/include/stdc-predef.h \
- /home/ling/graphicsh/src/vertexrecorder.h /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /home/ling/graphicsh/PJ1/src/vertexrecorder.cpp \
+ /usr/include/stdc-predef.h /home/ling/graphicsh/PJ1/src/vertexrecorder.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -46,8 +46,8 @@ CMakeFiles/a1.dir/src/vertexrecorder.cpp.o: \
  /usr/include/c++/13/backward/binders.h \
  /usr/include/c++/13/bits/range_access.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/ling/graphicsh/vecmath/include/vecmath.h \
- /home/ling/graphicsh/vecmath/include/Matrix2f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/vecmath.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix2f.h \
  /usr/include/c++/13/cstdio /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
@@ -65,10 +65,10 @@ CMakeFiles/a1.dir/src/vertexrecorder.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/ling/graphicsh/vecmath/include/Matrix3f.h \
- /home/ling/graphicsh/vecmath/include/Matrix4f.h \
- /home/ling/graphicsh/vecmath/include/Quat4f.h \
- /home/ling/graphicsh/vecmath/include/Vector2f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix3f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Quat4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector2f.h \
  /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -107,10 +107,10 @@ CMakeFiles/a1.dir/src/vertexrecorder.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/ling/graphicsh/vecmath/include/Vector3f.h \
- /home/ling/graphicsh/vecmath/include/Vector4f.h \
- /home/ling/graphicsh/src/gl.h \
- /home/ling/graphicsh/glew/include/GL/glew.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector3f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector4f.h \
+ /home/ling/graphicsh/PJ1/src/gl.h \
+ /home/ling/graphicsh/PJ1/glew/include/GL/glew.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

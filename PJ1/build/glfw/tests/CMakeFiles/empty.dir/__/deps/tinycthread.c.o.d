@@ -1,6 +1,7 @@
 glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o: \
- /home/ling/graphicsh/glfw/deps/tinycthread.c /usr/include/stdc-predef.h \
- /home/ling/graphicsh/glfw/deps/tinycthread.h /usr/include/time.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.c \
+ /usr/include/stdc-predef.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.h /usr/include/time.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \

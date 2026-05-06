@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = -DGLEW_STATIC
 
-C_INCLUDES = -I/home/ling/graphicsh/vecmath/include -I/home/ling/graphicsh/glfw/include -I/home/ling/graphicsh/glew/include
+C_INCLUDES = -I/home/ling/graphicsh/PJ1/vecmath/include -I/home/ling/graphicsh/PJ1/glfw/include -I/home/ling/graphicsh/PJ1/glew/include
 
 C_FLAGS = 
 
 CXX_DEFINES = -DGLEW_STATIC
 
-CXX_INCLUDES = -I/home/ling/graphicsh/vecmath/include -I/home/ling/graphicsh/glfw/include -I/home/ling/graphicsh/glew/include
+CXX_INCLUDES = -I/home/ling/graphicsh/PJ1/vecmath/include -I/home/ling/graphicsh/PJ1/glfw/include -I/home/ling/graphicsh/PJ1/glew/include
 
 CXX_FLAGS =  --std=gnu++11 -g -Wall -Wno-unused-variable
 

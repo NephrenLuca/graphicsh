@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/graphicsh
+CMAKE_SOURCE_DIR = /home/ling/graphicsh/PJ1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/graphicsh/build
+CMAKE_BINARY_DIR = /home/ling/graphicsh/PJ1/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include glfw/CMakeFiles/uninstall.dir/progress.make
 
 glfw/CMakeFiles/uninstall:
-	cd /home/ling/graphicsh/build/glfw && /usr/bin/cmake -P /home/ling/graphicsh/build/glfw/cmake_uninstall.cmake
+	cd /home/ling/graphicsh/PJ1/build/glfw && /usr/bin/cmake -P /home/ling/graphicsh/PJ1/build/glfw/cmake_uninstall.cmake
 
 uninstall: glfw/CMakeFiles/uninstall
 uninstall: glfw/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw/CMakeFiles/uninstall.dir/build
 
 glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/ling/graphicsh/build/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/ling/graphicsh/PJ1/build/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : glfw/CMakeFiles/uninstall.dir/clean
 
 glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh /home/ling/graphicsh/glfw /home/ling/graphicsh/build /home/ling/graphicsh/build/glfw /home/ling/graphicsh/build/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh/PJ1 /home/ling/graphicsh/PJ1/glfw /home/ling/graphicsh/PJ1/build /home/ling/graphicsh/PJ1/build/glfw /home/ling/graphicsh/PJ1/build/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/CMakeFiles/uninstall.dir/depend
 

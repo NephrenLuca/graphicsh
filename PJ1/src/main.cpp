@@ -398,9 +398,35 @@ void freeVertices() {
     recorders = nullptr;
 }
 
+// Parse command-line flags that are NOT a filename and strip them from argv,
+// returning the possibly-reduced argc. Known flags:
+//   --swap-bg, -x    swap the B and T axis colors in recordCurveFrames
+//                    (matches sample_solution conventions).
+static int parseFlags(int argc, char** argv)
+{
+    int writeIdx = 1; // keep argv[0]
+    for (int i = 1; i < argc; i++) {
+        std::string a = argv[i];
+        if (a == "--swap-bg" || a == "-x") {
+            setSwapCurveBG(true);
+            continue;
+        }
+        if (a == "--help" || a == "-h") {
+            std::cerr << "usage: " << argv[0]
+                      << " [--swap-bg|-x] SWPFILE [OBJPREFIX]" << std::endl
+                      << "  --swap-bg  Swap B/T axis colors (N=red,B=green,T=blue)"
+                      << std::endl;
+            exit(0);
+        }
+        argv[writeIdx++] = argv[i];
+    }
+    return writeIdx;
+}
+
 }
 int main(int argc, char** argv)
 {
+    argc = parseFlags(argc, argv);
     loadObjects(argc, argv);
 
     GLFWwindow* window = createOpenGLWindow(600, 600, "Assignment 1");

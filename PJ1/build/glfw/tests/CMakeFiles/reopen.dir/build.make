@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/graphicsh
+CMAKE_SOURCE_DIR = /home/ling/graphicsh/PJ1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/graphicsh/build
+CMAKE_BINARY_DIR = /home/ling/graphicsh/PJ1/build
 
 # Include any dependencies generated for this target.
 include glfw/tests/CMakeFiles/reopen.dir/depend.make
@@ -70,32 +70,32 @@ include glfw/tests/CMakeFiles/reopen.dir/progress.make
 include glfw/tests/CMakeFiles/reopen.dir/flags.make
 
 glfw/tests/CMakeFiles/reopen.dir/reopen.c.o: glfw/tests/CMakeFiles/reopen.dir/flags.make
-glfw/tests/CMakeFiles/reopen.dir/reopen.c.o: /home/ling/graphicsh/glfw/tests/reopen.c
+glfw/tests/CMakeFiles/reopen.dir/reopen.c.o: /home/ling/graphicsh/PJ1/glfw/tests/reopen.c
 glfw/tests/CMakeFiles/reopen.dir/reopen.c.o: glfw/tests/CMakeFiles/reopen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/tests/CMakeFiles/reopen.dir/reopen.c.o"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/reopen.dir/reopen.c.o -MF CMakeFiles/reopen.dir/reopen.c.o.d -o CMakeFiles/reopen.dir/reopen.c.o -c /home/ling/graphicsh/glfw/tests/reopen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/tests/CMakeFiles/reopen.dir/reopen.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/reopen.dir/reopen.c.o -MF CMakeFiles/reopen.dir/reopen.c.o.d -o CMakeFiles/reopen.dir/reopen.c.o -c /home/ling/graphicsh/PJ1/glfw/tests/reopen.c
 
 glfw/tests/CMakeFiles/reopen.dir/reopen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/reopen.dir/reopen.c.i"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/tests/reopen.c > CMakeFiles/reopen.dir/reopen.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/tests/reopen.c > CMakeFiles/reopen.dir/reopen.c.i
 
 glfw/tests/CMakeFiles/reopen.dir/reopen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/reopen.dir/reopen.c.s"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/tests/reopen.c -o CMakeFiles/reopen.dir/reopen.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/tests/reopen.c -o CMakeFiles/reopen.dir/reopen.c.s
 
 glfw/tests/CMakeFiles/reopen.dir/__/deps/glad.c.o: glfw/tests/CMakeFiles/reopen.dir/flags.make
-glfw/tests/CMakeFiles/reopen.dir/__/deps/glad.c.o: /home/ling/graphicsh/glfw/deps/glad.c
+glfw/tests/CMakeFiles/reopen.dir/__/deps/glad.c.o: /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 glfw/tests/CMakeFiles/reopen.dir/__/deps/glad.c.o: glfw/tests/CMakeFiles/reopen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/tests/CMakeFiles/reopen.dir/__/deps/glad.c.o"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/reopen.dir/__/deps/glad.c.o -MF CMakeFiles/reopen.dir/__/deps/glad.c.o.d -o CMakeFiles/reopen.dir/__/deps/glad.c.o -c /home/ling/graphicsh/glfw/deps/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/tests/CMakeFiles/reopen.dir/__/deps/glad.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/reopen.dir/__/deps/glad.c.o -MF CMakeFiles/reopen.dir/__/deps/glad.c.o.d -o CMakeFiles/reopen.dir/__/deps/glad.c.o -c /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 
 glfw/tests/CMakeFiles/reopen.dir/__/deps/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/reopen.dir/__/deps/glad.c.i"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/deps/glad.c > CMakeFiles/reopen.dir/__/deps/glad.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/deps/glad.c > CMakeFiles/reopen.dir/__/deps/glad.c.i
 
 glfw/tests/CMakeFiles/reopen.dir/__/deps/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/reopen.dir/__/deps/glad.c.s"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/deps/glad.c -o CMakeFiles/reopen.dir/__/deps/glad.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/deps/glad.c -o CMakeFiles/reopen.dir/__/deps/glad.c.s
 
 # Object files for target reopen
 reopen_OBJECTS = \
@@ -117,18 +117,18 @@ glfw/tests/reopen: /usr/lib/x86_64-linux-gnu/libXinerama.so
 glfw/tests/reopen: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 glfw/tests/reopen: /usr/lib/x86_64-linux-gnu/libXcursor.so
 glfw/tests/reopen: glfw/tests/CMakeFiles/reopen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable reopen"
-	cd /home/ling/graphicsh/build/glfw/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reopen.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable reopen"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reopen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw/tests/CMakeFiles/reopen.dir/build: glfw/tests/reopen
 .PHONY : glfw/tests/CMakeFiles/reopen.dir/build
 
 glfw/tests/CMakeFiles/reopen.dir/clean:
-	cd /home/ling/graphicsh/build/glfw/tests && $(CMAKE_COMMAND) -P CMakeFiles/reopen.dir/cmake_clean.cmake
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && $(CMAKE_COMMAND) -P CMakeFiles/reopen.dir/cmake_clean.cmake
 .PHONY : glfw/tests/CMakeFiles/reopen.dir/clean
 
 glfw/tests/CMakeFiles/reopen.dir/depend:
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh /home/ling/graphicsh/glfw/tests /home/ling/graphicsh/build /home/ling/graphicsh/build/glfw/tests /home/ling/graphicsh/build/glfw/tests/CMakeFiles/reopen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh/PJ1 /home/ling/graphicsh/PJ1/glfw/tests /home/ling/graphicsh/PJ1/build /home/ling/graphicsh/PJ1/build/glfw/tests /home/ling/graphicsh/PJ1/build/glfw/tests/CMakeFiles/reopen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/tests/CMakeFiles/reopen.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/graphicsh
+CMAKE_SOURCE_DIR = /home/ling/graphicsh/PJ1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/graphicsh/build
+CMAKE_BINARY_DIR = /home/ling/graphicsh/PJ1/build
 
 # Include any dependencies generated for this target.
 include glfw/examples/CMakeFiles/particles.dir/depend.make
@@ -70,60 +70,60 @@ include glfw/examples/CMakeFiles/particles.dir/progress.make
 include glfw/examples/CMakeFiles/particles.dir/flags.make
 
 glfw/examples/CMakeFiles/particles.dir/particles.c.o: glfw/examples/CMakeFiles/particles.dir/flags.make
-glfw/examples/CMakeFiles/particles.dir/particles.c.o: /home/ling/graphicsh/glfw/examples/particles.c
+glfw/examples/CMakeFiles/particles.dir/particles.c.o: /home/ling/graphicsh/PJ1/glfw/examples/particles.c
 glfw/examples/CMakeFiles/particles.dir/particles.c.o: glfw/examples/CMakeFiles/particles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/examples/CMakeFiles/particles.dir/particles.c.o"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/particles.dir/particles.c.o -MF CMakeFiles/particles.dir/particles.c.o.d -o CMakeFiles/particles.dir/particles.c.o -c /home/ling/graphicsh/glfw/examples/particles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/examples/CMakeFiles/particles.dir/particles.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/particles.dir/particles.c.o -MF CMakeFiles/particles.dir/particles.c.o.d -o CMakeFiles/particles.dir/particles.c.o -c /home/ling/graphicsh/PJ1/glfw/examples/particles.c
 
 glfw/examples/CMakeFiles/particles.dir/particles.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/particles.dir/particles.c.i"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/examples/particles.c > CMakeFiles/particles.dir/particles.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/examples/particles.c > CMakeFiles/particles.dir/particles.c.i
 
 glfw/examples/CMakeFiles/particles.dir/particles.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/particles.dir/particles.c.s"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/examples/particles.c -o CMakeFiles/particles.dir/particles.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/examples/particles.c -o CMakeFiles/particles.dir/particles.c.s
 
 glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o: glfw/examples/CMakeFiles/particles.dir/flags.make
-glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o: /home/ling/graphicsh/glfw/deps/tinycthread.c
+glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o: /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.c
 glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o: glfw/examples/CMakeFiles/particles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o -MF CMakeFiles/particles.dir/__/deps/tinycthread.c.o.d -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o -c /home/ling/graphicsh/glfw/deps/tinycthread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o -MF CMakeFiles/particles.dir/__/deps/tinycthread.c.o.d -o CMakeFiles/particles.dir/__/deps/tinycthread.c.o -c /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.c
 
 glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/particles.dir/__/deps/tinycthread.c.i"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/deps/tinycthread.c > CMakeFiles/particles.dir/__/deps/tinycthread.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.c > CMakeFiles/particles.dir/__/deps/tinycthread.c.i
 
 glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/particles.dir/__/deps/tinycthread.c.s"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/deps/tinycthread.c -o CMakeFiles/particles.dir/__/deps/tinycthread.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.c -o CMakeFiles/particles.dir/__/deps/tinycthread.c.s
 
 glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o: glfw/examples/CMakeFiles/particles.dir/flags.make
-glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o: /home/ling/graphicsh/glfw/deps/getopt.c
+glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o: /home/ling/graphicsh/PJ1/glfw/deps/getopt.c
 glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o: glfw/examples/CMakeFiles/particles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o -MF CMakeFiles/particles.dir/__/deps/getopt.c.o.d -o CMakeFiles/particles.dir/__/deps/getopt.c.o -c /home/ling/graphicsh/glfw/deps/getopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o -MF CMakeFiles/particles.dir/__/deps/getopt.c.o.d -o CMakeFiles/particles.dir/__/deps/getopt.c.o -c /home/ling/graphicsh/PJ1/glfw/deps/getopt.c
 
 glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/particles.dir/__/deps/getopt.c.i"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/deps/getopt.c > CMakeFiles/particles.dir/__/deps/getopt.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/deps/getopt.c > CMakeFiles/particles.dir/__/deps/getopt.c.i
 
 glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/particles.dir/__/deps/getopt.c.s"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/deps/getopt.c -o CMakeFiles/particles.dir/__/deps/getopt.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/deps/getopt.c -o CMakeFiles/particles.dir/__/deps/getopt.c.s
 
 glfw/examples/CMakeFiles/particles.dir/__/deps/glad.c.o: glfw/examples/CMakeFiles/particles.dir/flags.make
-glfw/examples/CMakeFiles/particles.dir/__/deps/glad.c.o: /home/ling/graphicsh/glfw/deps/glad.c
+glfw/examples/CMakeFiles/particles.dir/__/deps/glad.c.o: /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 glfw/examples/CMakeFiles/particles.dir/__/deps/glad.c.o: glfw/examples/CMakeFiles/particles.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object glfw/examples/CMakeFiles/particles.dir/__/deps/glad.c.o"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/particles.dir/__/deps/glad.c.o -MF CMakeFiles/particles.dir/__/deps/glad.c.o.d -o CMakeFiles/particles.dir/__/deps/glad.c.o -c /home/ling/graphicsh/glfw/deps/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object glfw/examples/CMakeFiles/particles.dir/__/deps/glad.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/particles.dir/__/deps/glad.c.o -MF CMakeFiles/particles.dir/__/deps/glad.c.o.d -o CMakeFiles/particles.dir/__/deps/glad.c.o -c /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 
 glfw/examples/CMakeFiles/particles.dir/__/deps/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/particles.dir/__/deps/glad.c.i"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/deps/glad.c > CMakeFiles/particles.dir/__/deps/glad.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/deps/glad.c > CMakeFiles/particles.dir/__/deps/glad.c.i
 
 glfw/examples/CMakeFiles/particles.dir/__/deps/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/particles.dir/__/deps/glad.c.s"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/deps/glad.c -o CMakeFiles/particles.dir/__/deps/glad.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/deps/glad.c -o CMakeFiles/particles.dir/__/deps/glad.c.s
 
 # Object files for target particles
 particles_OBJECTS = \
@@ -149,18 +149,18 @@ glfw/examples/particles: /usr/lib/x86_64-linux-gnu/libXinerama.so
 glfw/examples/particles: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 glfw/examples/particles: /usr/lib/x86_64-linux-gnu/libXcursor.so
 glfw/examples/particles: glfw/examples/CMakeFiles/particles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable particles"
-	cd /home/ling/graphicsh/build/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/particles.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable particles"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/particles.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw/examples/CMakeFiles/particles.dir/build: glfw/examples/particles
 .PHONY : glfw/examples/CMakeFiles/particles.dir/build
 
 glfw/examples/CMakeFiles/particles.dir/clean:
-	cd /home/ling/graphicsh/build/glfw/examples && $(CMAKE_COMMAND) -P CMakeFiles/particles.dir/cmake_clean.cmake
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && $(CMAKE_COMMAND) -P CMakeFiles/particles.dir/cmake_clean.cmake
 .PHONY : glfw/examples/CMakeFiles/particles.dir/clean
 
 glfw/examples/CMakeFiles/particles.dir/depend:
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh /home/ling/graphicsh/glfw/examples /home/ling/graphicsh/build /home/ling/graphicsh/build/glfw/examples /home/ling/graphicsh/build/glfw/examples/CMakeFiles/particles.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh/PJ1 /home/ling/graphicsh/PJ1/glfw/examples /home/ling/graphicsh/PJ1/build /home/ling/graphicsh/PJ1/build/glfw/examples /home/ling/graphicsh/PJ1/build/glfw/examples/CMakeFiles/particles.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/examples/CMakeFiles/particles.dir/depend
 

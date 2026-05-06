@@ -1,4 +1,4 @@
-# Install script for directory: /home/ling/graphicsh/vecmath
+# Install script for directory: /home/ling/graphicsh/PJ1/vecmath
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

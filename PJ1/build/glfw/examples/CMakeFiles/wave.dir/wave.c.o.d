@@ -1,5 +1,5 @@
 glfw/examples/CMakeFiles/wave.dir/wave.c.o: \
- /home/ling/graphicsh/glfw/examples/wave.c /usr/include/stdc-predef.h \
+ /home/ling/graphicsh/PJ1/glfw/examples/wave.c /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -56,11 +56,12 @@ glfw/examples/CMakeFiles/wave.dir/wave.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/ling/graphicsh/glfw/deps/glad/glad.h \
- /home/ling/graphicsh/glfw/deps/KHR/khrplatform.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/glad/glad.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/inttypes.h /home/ling/graphicsh/glfw/include/GLFW/glfw3.h \
- /usr/include/GL/gl.h /home/ling/graphicsh/glfw/deps/linmath.h
+ /usr/include/inttypes.h \
+ /home/ling/graphicsh/PJ1/glfw/include/GLFW/glfw3.h /usr/include/GL/gl.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/linmath.h

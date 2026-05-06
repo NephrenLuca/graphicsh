@@ -1,0 +1,14 @@
+% header.tex — include for pandoc/xelatex to support Chinese and float control
+\usepackage{xeCJK}
+\setCJKmainfont{Microsoft YaHei}
+\setCJKfamilyfont{song}{SimSun}
+% ensure proper line breaking for Chinese
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+% control figure floats
+\usepackage{placeins}
+\usepackage{float}
+% Optionally force figures to appear "here" by default
+\makeatletter
+\renewcommand{\fps@figure}{H}
+\makeatother

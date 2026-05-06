@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ling/graphicsh/glfw/deps -I/home/ling/graphicsh/glfw/include
+C_INCLUDES = -I/home/ling/graphicsh/PJ1/glfw/deps -I/home/ling/graphicsh/PJ1/glfw/include
 
 C_FLAGS = 
 

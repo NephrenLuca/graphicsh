@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/graphicsh
+CMAKE_SOURCE_DIR = /home/ling/graphicsh/PJ1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/graphicsh/build
+CMAKE_BINARY_DIR = /home/ling/graphicsh/PJ1/build
 
 # Include any dependencies generated for this target.
 include glfw/tests/CMakeFiles/empty.dir/depend.make
@@ -70,46 +70,46 @@ include glfw/tests/CMakeFiles/empty.dir/progress.make
 include glfw/tests/CMakeFiles/empty.dir/flags.make
 
 glfw/tests/CMakeFiles/empty.dir/empty.c.o: glfw/tests/CMakeFiles/empty.dir/flags.make
-glfw/tests/CMakeFiles/empty.dir/empty.c.o: /home/ling/graphicsh/glfw/tests/empty.c
+glfw/tests/CMakeFiles/empty.dir/empty.c.o: /home/ling/graphicsh/PJ1/glfw/tests/empty.c
 glfw/tests/CMakeFiles/empty.dir/empty.c.o: glfw/tests/CMakeFiles/empty.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/tests/CMakeFiles/empty.dir/empty.c.o"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/empty.dir/empty.c.o -MF CMakeFiles/empty.dir/empty.c.o.d -o CMakeFiles/empty.dir/empty.c.o -c /home/ling/graphicsh/glfw/tests/empty.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/tests/CMakeFiles/empty.dir/empty.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/empty.dir/empty.c.o -MF CMakeFiles/empty.dir/empty.c.o.d -o CMakeFiles/empty.dir/empty.c.o -c /home/ling/graphicsh/PJ1/glfw/tests/empty.c
 
 glfw/tests/CMakeFiles/empty.dir/empty.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/empty.dir/empty.c.i"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/tests/empty.c > CMakeFiles/empty.dir/empty.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/tests/empty.c > CMakeFiles/empty.dir/empty.c.i
 
 glfw/tests/CMakeFiles/empty.dir/empty.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/empty.dir/empty.c.s"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/tests/empty.c -o CMakeFiles/empty.dir/empty.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/tests/empty.c -o CMakeFiles/empty.dir/empty.c.s
 
 glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o: glfw/tests/CMakeFiles/empty.dir/flags.make
-glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o: /home/ling/graphicsh/glfw/deps/tinycthread.c
+glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o: /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.c
 glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o: glfw/tests/CMakeFiles/empty.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o -MF CMakeFiles/empty.dir/__/deps/tinycthread.c.o.d -o CMakeFiles/empty.dir/__/deps/tinycthread.c.o -c /home/ling/graphicsh/glfw/deps/tinycthread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o -MF CMakeFiles/empty.dir/__/deps/tinycthread.c.o.d -o CMakeFiles/empty.dir/__/deps/tinycthread.c.o -c /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.c
 
 glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/empty.dir/__/deps/tinycthread.c.i"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/deps/tinycthread.c > CMakeFiles/empty.dir/__/deps/tinycthread.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.c > CMakeFiles/empty.dir/__/deps/tinycthread.c.i
 
 glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/empty.dir/__/deps/tinycthread.c.s"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/deps/tinycthread.c -o CMakeFiles/empty.dir/__/deps/tinycthread.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.c -o CMakeFiles/empty.dir/__/deps/tinycthread.c.s
 
 glfw/tests/CMakeFiles/empty.dir/__/deps/glad.c.o: glfw/tests/CMakeFiles/empty.dir/flags.make
-glfw/tests/CMakeFiles/empty.dir/__/deps/glad.c.o: /home/ling/graphicsh/glfw/deps/glad.c
+glfw/tests/CMakeFiles/empty.dir/__/deps/glad.c.o: /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 glfw/tests/CMakeFiles/empty.dir/__/deps/glad.c.o: glfw/tests/CMakeFiles/empty.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object glfw/tests/CMakeFiles/empty.dir/__/deps/glad.c.o"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/empty.dir/__/deps/glad.c.o -MF CMakeFiles/empty.dir/__/deps/glad.c.o.d -o CMakeFiles/empty.dir/__/deps/glad.c.o -c /home/ling/graphicsh/glfw/deps/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object glfw/tests/CMakeFiles/empty.dir/__/deps/glad.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/empty.dir/__/deps/glad.c.o -MF CMakeFiles/empty.dir/__/deps/glad.c.o.d -o CMakeFiles/empty.dir/__/deps/glad.c.o -c /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 
 glfw/tests/CMakeFiles/empty.dir/__/deps/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/empty.dir/__/deps/glad.c.i"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/deps/glad.c > CMakeFiles/empty.dir/__/deps/glad.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/deps/glad.c > CMakeFiles/empty.dir/__/deps/glad.c.i
 
 glfw/tests/CMakeFiles/empty.dir/__/deps/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/empty.dir/__/deps/glad.c.s"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/deps/glad.c -o CMakeFiles/empty.dir/__/deps/glad.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/deps/glad.c -o CMakeFiles/empty.dir/__/deps/glad.c.s
 
 # Object files for target empty
 empty_OBJECTS = \
@@ -133,18 +133,18 @@ glfw/tests/empty: /usr/lib/x86_64-linux-gnu/libXinerama.so
 glfw/tests/empty: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 glfw/tests/empty: /usr/lib/x86_64-linux-gnu/libXcursor.so
 glfw/tests/empty: glfw/tests/CMakeFiles/empty.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable empty"
-	cd /home/ling/graphicsh/build/glfw/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/empty.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable empty"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/empty.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw/tests/CMakeFiles/empty.dir/build: glfw/tests/empty
 .PHONY : glfw/tests/CMakeFiles/empty.dir/build
 
 glfw/tests/CMakeFiles/empty.dir/clean:
-	cd /home/ling/graphicsh/build/glfw/tests && $(CMAKE_COMMAND) -P CMakeFiles/empty.dir/cmake_clean.cmake
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && $(CMAKE_COMMAND) -P CMakeFiles/empty.dir/cmake_clean.cmake
 .PHONY : glfw/tests/CMakeFiles/empty.dir/clean
 
 glfw/tests/CMakeFiles/empty.dir/depend:
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh /home/ling/graphicsh/glfw/tests /home/ling/graphicsh/build /home/ling/graphicsh/build/glfw/tests /home/ling/graphicsh/build/glfw/tests/CMakeFiles/empty.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh/PJ1 /home/ling/graphicsh/PJ1/glfw/tests /home/ling/graphicsh/PJ1/build /home/ling/graphicsh/PJ1/build/glfw/tests /home/ling/graphicsh/PJ1/build/glfw/tests/CMakeFiles/empty.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/tests/CMakeFiles/empty.dir/depend
 

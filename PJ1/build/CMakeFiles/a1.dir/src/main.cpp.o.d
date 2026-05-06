@@ -1,6 +1,6 @@
-CMakeFiles/a1.dir/src/main.cpp.o: /home/ling/graphicsh/src/main.cpp \
- /usr/include/stdc-predef.h /home/ling/graphicsh/src/gl.h \
- /home/ling/graphicsh/glew/include/GL/glew.h \
+CMakeFiles/a1.dir/src/main.cpp.o: /home/ling/graphicsh/PJ1/src/main.cpp \
+ /usr/include/stdc-predef.h /home/ling/graphicsh/PJ1/src/gl.h \
+ /home/ling/graphicsh/PJ1/glew/include/GL/glew.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -18,7 +18,7 @@ CMakeFiles/a1.dir/src/main.cpp.o: /home/ling/graphicsh/src/main.cpp \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/GL/glu.h \
- /usr/include/GL/gl.h /home/ling/graphicsh/glfw/include/GLFW/glfw3.h \
+ /usr/include/GL/gl.h /home/ling/graphicsh/PJ1/glfw/include/GLFW/glfw3.h \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -169,17 +169,19 @@ CMakeFiles/a1.dir/src/main.cpp.o: /home/ling/graphicsh/src/main.cpp \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/cstdint \
- /home/ling/graphicsh/vecmath/include/vecmath.h \
- /home/ling/graphicsh/vecmath/include/Matrix2f.h \
- /home/ling/graphicsh/vecmath/include/Matrix3f.h \
- /home/ling/graphicsh/vecmath/include/Matrix4f.h \
- /home/ling/graphicsh/vecmath/include/Quat4f.h \
- /home/ling/graphicsh/vecmath/include/Vector2f.h \
- /home/ling/graphicsh/vecmath/include/Vector3f.h \
- /home/ling/graphicsh/vecmath/include/Vector4f.h \
- /home/ling/graphicsh/src/starter1_util.h \
- /home/ling/graphicsh/src/parse.h /home/ling/graphicsh/src/curve.h \
- /home/ling/graphicsh/src/tuple.h /usr/include/c++/13/cstdarg \
+ /home/ling/graphicsh/PJ1/vecmath/include/vecmath.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix2f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix3f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Quat4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector2f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector3f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector4f.h \
+ /home/ling/graphicsh/PJ1/src/starter1_util.h \
+ /home/ling/graphicsh/PJ1/src/parse.h \
+ /home/ling/graphicsh/PJ1/src/curve.h \
+ /home/ling/graphicsh/PJ1/src/tuple.h /usr/include/c++/13/cstdarg \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /home/ling/graphicsh/src/surf.h /home/ling/graphicsh/src/camera.h \
- /home/ling/graphicsh/src/vertexrecorder.h
+ /home/ling/graphicsh/PJ1/src/surf.h \
+ /home/ling/graphicsh/PJ1/src/camera.h \
+ /home/ling/graphicsh/PJ1/src/vertexrecorder.h

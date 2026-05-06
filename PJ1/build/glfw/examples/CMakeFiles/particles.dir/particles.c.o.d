@@ -1,5 +1,5 @@
 glfw/examples/CMakeFiles/particles.dir/particles.c.o: \
- /home/ling/graphicsh/glfw/examples/particles.c \
+ /home/ling/graphicsh/PJ1/glfw/examples/particles.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -62,7 +62,7 @@ glfw/examples/CMakeFiles/particles.dir/particles.c.o: \
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
- /home/ling/graphicsh/glfw/deps/tinycthread.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/pthread.h \
  /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
@@ -70,13 +70,13 @@ glfw/examples/CMakeFiles/particles.dir/particles.c.o: \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /home/ling/graphicsh/glfw/deps/getopt.h \
- /home/ling/graphicsh/glfw/deps/linmath.h \
- /home/ling/graphicsh/glfw/deps/glad/glad.h \
- /home/ling/graphicsh/glfw/deps/KHR/khrplatform.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/getopt.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/linmath.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/glad/glad.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/inttypes.h /home/ling/graphicsh/glfw/include/GLFW/glfw3.h \
- /usr/include/GL/gl.h
+ /usr/include/inttypes.h \
+ /home/ling/graphicsh/PJ1/glfw/include/GLFW/glfw3.h /usr/include/GL/gl.h

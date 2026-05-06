@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/graphicsh
+CMAKE_SOURCE_DIR = /home/ling/graphicsh/PJ1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/graphicsh/build
+CMAKE_BINARY_DIR = /home/ling/graphicsh/PJ1/build
 
 # Include any dependencies generated for this target.
 include glfw/examples/CMakeFiles/splitview.dir/depend.make
@@ -70,32 +70,32 @@ include glfw/examples/CMakeFiles/splitview.dir/progress.make
 include glfw/examples/CMakeFiles/splitview.dir/flags.make
 
 glfw/examples/CMakeFiles/splitview.dir/splitview.c.o: glfw/examples/CMakeFiles/splitview.dir/flags.make
-glfw/examples/CMakeFiles/splitview.dir/splitview.c.o: /home/ling/graphicsh/glfw/examples/splitview.c
+glfw/examples/CMakeFiles/splitview.dir/splitview.c.o: /home/ling/graphicsh/PJ1/glfw/examples/splitview.c
 glfw/examples/CMakeFiles/splitview.dir/splitview.c.o: glfw/examples/CMakeFiles/splitview.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/examples/CMakeFiles/splitview.dir/splitview.c.o"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/splitview.dir/splitview.c.o -MF CMakeFiles/splitview.dir/splitview.c.o.d -o CMakeFiles/splitview.dir/splitview.c.o -c /home/ling/graphicsh/glfw/examples/splitview.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/examples/CMakeFiles/splitview.dir/splitview.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/splitview.dir/splitview.c.o -MF CMakeFiles/splitview.dir/splitview.c.o.d -o CMakeFiles/splitview.dir/splitview.c.o -c /home/ling/graphicsh/PJ1/glfw/examples/splitview.c
 
 glfw/examples/CMakeFiles/splitview.dir/splitview.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/splitview.dir/splitview.c.i"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/examples/splitview.c > CMakeFiles/splitview.dir/splitview.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/examples/splitview.c > CMakeFiles/splitview.dir/splitview.c.i
 
 glfw/examples/CMakeFiles/splitview.dir/splitview.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/splitview.dir/splitview.c.s"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/examples/splitview.c -o CMakeFiles/splitview.dir/splitview.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/examples/splitview.c -o CMakeFiles/splitview.dir/splitview.c.s
 
 glfw/examples/CMakeFiles/splitview.dir/__/deps/glad.c.o: glfw/examples/CMakeFiles/splitview.dir/flags.make
-glfw/examples/CMakeFiles/splitview.dir/__/deps/glad.c.o: /home/ling/graphicsh/glfw/deps/glad.c
+glfw/examples/CMakeFiles/splitview.dir/__/deps/glad.c.o: /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 glfw/examples/CMakeFiles/splitview.dir/__/deps/glad.c.o: glfw/examples/CMakeFiles/splitview.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/examples/CMakeFiles/splitview.dir/__/deps/glad.c.o"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/splitview.dir/__/deps/glad.c.o -MF CMakeFiles/splitview.dir/__/deps/glad.c.o.d -o CMakeFiles/splitview.dir/__/deps/glad.c.o -c /home/ling/graphicsh/glfw/deps/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/examples/CMakeFiles/splitview.dir/__/deps/glad.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/splitview.dir/__/deps/glad.c.o -MF CMakeFiles/splitview.dir/__/deps/glad.c.o.d -o CMakeFiles/splitview.dir/__/deps/glad.c.o -c /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 
 glfw/examples/CMakeFiles/splitview.dir/__/deps/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/splitview.dir/__/deps/glad.c.i"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/deps/glad.c > CMakeFiles/splitview.dir/__/deps/glad.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/deps/glad.c > CMakeFiles/splitview.dir/__/deps/glad.c.i
 
 glfw/examples/CMakeFiles/splitview.dir/__/deps/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/splitview.dir/__/deps/glad.c.s"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/deps/glad.c -o CMakeFiles/splitview.dir/__/deps/glad.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/deps/glad.c -o CMakeFiles/splitview.dir/__/deps/glad.c.s
 
 # Object files for target splitview
 splitview_OBJECTS = \
@@ -117,18 +117,18 @@ glfw/examples/splitview: /usr/lib/x86_64-linux-gnu/libXinerama.so
 glfw/examples/splitview: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 glfw/examples/splitview: /usr/lib/x86_64-linux-gnu/libXcursor.so
 glfw/examples/splitview: glfw/examples/CMakeFiles/splitview.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable splitview"
-	cd /home/ling/graphicsh/build/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/splitview.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable splitview"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/splitview.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw/examples/CMakeFiles/splitview.dir/build: glfw/examples/splitview
 .PHONY : glfw/examples/CMakeFiles/splitview.dir/build
 
 glfw/examples/CMakeFiles/splitview.dir/clean:
-	cd /home/ling/graphicsh/build/glfw/examples && $(CMAKE_COMMAND) -P CMakeFiles/splitview.dir/cmake_clean.cmake
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && $(CMAKE_COMMAND) -P CMakeFiles/splitview.dir/cmake_clean.cmake
 .PHONY : glfw/examples/CMakeFiles/splitview.dir/clean
 
 glfw/examples/CMakeFiles/splitview.dir/depend:
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh /home/ling/graphicsh/glfw/examples /home/ling/graphicsh/build /home/ling/graphicsh/build/glfw/examples /home/ling/graphicsh/build/glfw/examples/CMakeFiles/splitview.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh/PJ1 /home/ling/graphicsh/PJ1/glfw/examples /home/ling/graphicsh/PJ1/build /home/ling/graphicsh/PJ1/build/glfw/examples /home/ling/graphicsh/PJ1/build/glfw/examples/CMakeFiles/splitview.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/examples/CMakeFiles/splitview.dir/depend
 

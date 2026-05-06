@@ -1,8 +1,8 @@
 glfw/tests/CMakeFiles/cursor.dir/cursor.c.o: \
- /home/ling/graphicsh/glfw/tests/cursor.c /usr/include/stdc-predef.h \
- /home/ling/graphicsh/glfw/deps/glad/glad.h \
+ /home/ling/graphicsh/PJ1/glfw/tests/cursor.c /usr/include/stdc-predef.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/glad/glad.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /home/ling/graphicsh/glfw/deps/KHR/khrplatform.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -19,9 +19,9 @@ glfw/tests/CMakeFiles/cursor.dir/cursor.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/inttypes.h /home/ling/graphicsh/glfw/include/GLFW/glfw3.h \
- /usr/include/GL/gl.h /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/inttypes.h \
+ /home/ling/graphicsh/PJ1/glfw/include/GLFW/glfw3.h /usr/include/GL/gl.h \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \

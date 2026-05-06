@@ -1,6 +1,6 @@
 glfw/tests/CMakeFiles/threads.dir/threads.c.o: \
- /home/ling/graphicsh/glfw/tests/threads.c /usr/include/stdc-predef.h \
- /home/ling/graphicsh/glfw/deps/tinycthread.h /usr/include/time.h \
+ /home/ling/graphicsh/PJ1/glfw/tests/threads.c /usr/include/stdc-predef.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/tinycthread.h /usr/include/time.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -44,17 +44,17 @@ glfw/tests/CMakeFiles/threads.dir/threads.c.o: \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /home/ling/graphicsh/glfw/deps/glad/glad.h \
- /home/ling/graphicsh/glfw/deps/KHR/khrplatform.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/glad/glad.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/inttypes.h /home/ling/graphicsh/glfw/include/GLFW/glfw3.h \
- /usr/include/GL/gl.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/include/inttypes.h \
+ /home/ling/graphicsh/PJ1/glfw/include/GLFW/glfw3.h /usr/include/GL/gl.h \
+ /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \

@@ -1,7 +1,7 @@
-CMakeFiles/a1.dir/src/surf.cpp.o: /home/ling/graphicsh/src/surf.cpp \
- /usr/include/stdc-predef.h /home/ling/graphicsh/src/surf.h \
- /home/ling/graphicsh/src/curve.h /home/ling/graphicsh/src/tuple.h \
- /usr/include/c++/13/cstdarg \
+CMakeFiles/a1.dir/src/surf.cpp.o: /home/ling/graphicsh/PJ1/src/surf.cpp \
+ /usr/include/stdc-predef.h /home/ling/graphicsh/PJ1/src/surf.h \
+ /home/ling/graphicsh/PJ1/src/curve.h \
+ /home/ling/graphicsh/PJ1/src/tuple.h /usr/include/c++/13/cstdarg \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -149,12 +149,12 @@ CMakeFiles/a1.dir/src/surf.cpp.o: /home/ling/graphicsh/src/surf.cpp \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/ling/graphicsh/vecmath/include/vecmath.h \
- /home/ling/graphicsh/vecmath/include/Matrix2f.h \
- /home/ling/graphicsh/vecmath/include/Matrix3f.h \
- /home/ling/graphicsh/vecmath/include/Matrix4f.h \
- /home/ling/graphicsh/vecmath/include/Quat4f.h \
- /home/ling/graphicsh/vecmath/include/Vector2f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/vecmath.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix2f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix3f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Quat4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector2f.h \
  /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -165,14 +165,15 @@ CMakeFiles/a1.dir/src/surf.cpp.o: /home/ling/graphicsh/src/surf.cpp \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/ling/graphicsh/vecmath/include/Vector3f.h \
- /home/ling/graphicsh/vecmath/include/Vector4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector3f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector4f.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/ling/graphicsh/src/vertexrecorder.h /home/ling/graphicsh/src/gl.h \
- /home/ling/graphicsh/glew/include/GL/glew.h \
+ /home/ling/graphicsh/PJ1/src/vertexrecorder.h \
+ /home/ling/graphicsh/PJ1/src/gl.h \
+ /home/ling/graphicsh/PJ1/glew/include/GL/glew.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/GL/glu.h \

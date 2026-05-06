@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/graphicsh
+CMAKE_SOURCE_DIR = /home/ling/graphicsh/PJ1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/graphicsh/build
+CMAKE_BINARY_DIR = /home/ling/graphicsh/PJ1/build
 
 # Include any dependencies generated for this target.
 include glfw/tests/CMakeFiles/windows.dir/depend.make
@@ -70,46 +70,46 @@ include glfw/tests/CMakeFiles/windows.dir/progress.make
 include glfw/tests/CMakeFiles/windows.dir/flags.make
 
 glfw/tests/CMakeFiles/windows.dir/windows.c.o: glfw/tests/CMakeFiles/windows.dir/flags.make
-glfw/tests/CMakeFiles/windows.dir/windows.c.o: /home/ling/graphicsh/glfw/tests/windows.c
+glfw/tests/CMakeFiles/windows.dir/windows.c.o: /home/ling/graphicsh/PJ1/glfw/tests/windows.c
 glfw/tests/CMakeFiles/windows.dir/windows.c.o: glfw/tests/CMakeFiles/windows.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/tests/CMakeFiles/windows.dir/windows.c.o"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/windows.dir/windows.c.o -MF CMakeFiles/windows.dir/windows.c.o.d -o CMakeFiles/windows.dir/windows.c.o -c /home/ling/graphicsh/glfw/tests/windows.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/tests/CMakeFiles/windows.dir/windows.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/windows.dir/windows.c.o -MF CMakeFiles/windows.dir/windows.c.o.d -o CMakeFiles/windows.dir/windows.c.o -c /home/ling/graphicsh/PJ1/glfw/tests/windows.c
 
 glfw/tests/CMakeFiles/windows.dir/windows.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/windows.dir/windows.c.i"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/tests/windows.c > CMakeFiles/windows.dir/windows.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/tests/windows.c > CMakeFiles/windows.dir/windows.c.i
 
 glfw/tests/CMakeFiles/windows.dir/windows.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/windows.dir/windows.c.s"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/tests/windows.c -o CMakeFiles/windows.dir/windows.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/tests/windows.c -o CMakeFiles/windows.dir/windows.c.s
 
 glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.o: glfw/tests/CMakeFiles/windows.dir/flags.make
-glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.o: /home/ling/graphicsh/glfw/deps/getopt.c
+glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.o: /home/ling/graphicsh/PJ1/glfw/deps/getopt.c
 glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.o: glfw/tests/CMakeFiles/windows.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.o"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.o -MF CMakeFiles/windows.dir/__/deps/getopt.c.o.d -o CMakeFiles/windows.dir/__/deps/getopt.c.o -c /home/ling/graphicsh/glfw/deps/getopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.o -MF CMakeFiles/windows.dir/__/deps/getopt.c.o.d -o CMakeFiles/windows.dir/__/deps/getopt.c.o -c /home/ling/graphicsh/PJ1/glfw/deps/getopt.c
 
 glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/windows.dir/__/deps/getopt.c.i"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/deps/getopt.c > CMakeFiles/windows.dir/__/deps/getopt.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/deps/getopt.c > CMakeFiles/windows.dir/__/deps/getopt.c.i
 
 glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/windows.dir/__/deps/getopt.c.s"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/deps/getopt.c -o CMakeFiles/windows.dir/__/deps/getopt.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/deps/getopt.c -o CMakeFiles/windows.dir/__/deps/getopt.c.s
 
 glfw/tests/CMakeFiles/windows.dir/__/deps/glad.c.o: glfw/tests/CMakeFiles/windows.dir/flags.make
-glfw/tests/CMakeFiles/windows.dir/__/deps/glad.c.o: /home/ling/graphicsh/glfw/deps/glad.c
+glfw/tests/CMakeFiles/windows.dir/__/deps/glad.c.o: /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 glfw/tests/CMakeFiles/windows.dir/__/deps/glad.c.o: glfw/tests/CMakeFiles/windows.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object glfw/tests/CMakeFiles/windows.dir/__/deps/glad.c.o"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/windows.dir/__/deps/glad.c.o -MF CMakeFiles/windows.dir/__/deps/glad.c.o.d -o CMakeFiles/windows.dir/__/deps/glad.c.o -c /home/ling/graphicsh/glfw/deps/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object glfw/tests/CMakeFiles/windows.dir/__/deps/glad.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/windows.dir/__/deps/glad.c.o -MF CMakeFiles/windows.dir/__/deps/glad.c.o.d -o CMakeFiles/windows.dir/__/deps/glad.c.o -c /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 
 glfw/tests/CMakeFiles/windows.dir/__/deps/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/windows.dir/__/deps/glad.c.i"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/deps/glad.c > CMakeFiles/windows.dir/__/deps/glad.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/deps/glad.c > CMakeFiles/windows.dir/__/deps/glad.c.i
 
 glfw/tests/CMakeFiles/windows.dir/__/deps/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/windows.dir/__/deps/glad.c.s"
-	cd /home/ling/graphicsh/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/deps/glad.c -o CMakeFiles/windows.dir/__/deps/glad.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/deps/glad.c -o CMakeFiles/windows.dir/__/deps/glad.c.s
 
 # Object files for target windows
 windows_OBJECTS = \
@@ -133,18 +133,18 @@ glfw/tests/windows: /usr/lib/x86_64-linux-gnu/libXinerama.so
 glfw/tests/windows: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 glfw/tests/windows: /usr/lib/x86_64-linux-gnu/libXcursor.so
 glfw/tests/windows: glfw/tests/CMakeFiles/windows.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable windows"
-	cd /home/ling/graphicsh/build/glfw/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/windows.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable windows"
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/windows.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw/tests/CMakeFiles/windows.dir/build: glfw/tests/windows
 .PHONY : glfw/tests/CMakeFiles/windows.dir/build
 
 glfw/tests/CMakeFiles/windows.dir/clean:
-	cd /home/ling/graphicsh/build/glfw/tests && $(CMAKE_COMMAND) -P CMakeFiles/windows.dir/cmake_clean.cmake
+	cd /home/ling/graphicsh/PJ1/build/glfw/tests && $(CMAKE_COMMAND) -P CMakeFiles/windows.dir/cmake_clean.cmake
 .PHONY : glfw/tests/CMakeFiles/windows.dir/clean
 
 glfw/tests/CMakeFiles/windows.dir/depend:
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh /home/ling/graphicsh/glfw/tests /home/ling/graphicsh/build /home/ling/graphicsh/build/glfw/tests /home/ling/graphicsh/build/glfw/tests/CMakeFiles/windows.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh/PJ1 /home/ling/graphicsh/PJ1/glfw/tests /home/ling/graphicsh/PJ1/build /home/ling/graphicsh/PJ1/build/glfw/tests /home/ling/graphicsh/PJ1/build/glfw/tests/CMakeFiles/windows.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/tests/CMakeFiles/windows.dir/depend
 

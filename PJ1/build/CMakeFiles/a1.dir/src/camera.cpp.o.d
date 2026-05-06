@@ -1,7 +1,8 @@
-CMakeFiles/a1.dir/src/camera.cpp.o: /home/ling/graphicsh/src/camera.cpp \
- /usr/include/stdc-predef.h /home/ling/graphicsh/src/camera.h \
- /home/ling/graphicsh/vecmath/include/vecmath.h \
- /home/ling/graphicsh/vecmath/include/Matrix2f.h \
+CMakeFiles/a1.dir/src/camera.cpp.o: \
+ /home/ling/graphicsh/PJ1/src/camera.cpp /usr/include/stdc-predef.h \
+ /home/ling/graphicsh/PJ1/src/camera.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/vecmath.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix2f.h \
  /usr/include/c++/13/cstdio \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -30,10 +31,10 @@ CMakeFiles/a1.dir/src/camera.cpp.o: /home/ling/graphicsh/src/camera.cpp \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/ling/graphicsh/vecmath/include/Matrix3f.h \
- /home/ling/graphicsh/vecmath/include/Matrix4f.h \
- /home/ling/graphicsh/vecmath/include/Quat4f.h \
- /home/ling/graphicsh/vecmath/include/Vector2f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix3f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Matrix4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Quat4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector2f.h \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/bits/cpp_type_traits.h \
  /usr/include/c++/13/ext/type_traits.h /usr/include/math.h \
@@ -74,8 +75,8 @@ CMakeFiles/a1.dir/src/camera.cpp.o: /home/ling/graphicsh/src/camera.cpp \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/ling/graphicsh/vecmath/include/Vector3f.h \
- /home/ling/graphicsh/vecmath/include/Vector4f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector3f.h \
+ /home/ling/graphicsh/PJ1/vecmath/include/Vector4f.h \
  /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -168,6 +169,6 @@ CMakeFiles/a1.dir/src/camera.cpp.o: /home/ling/graphicsh/src/camera.cpp \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /home/ling/graphicsh/src/gl.h \
- /home/ling/graphicsh/glew/include/GL/glew.h /usr/include/GL/glu.h \
+ /usr/include/c++/13/bits/istream.tcc /home/ling/graphicsh/PJ1/src/gl.h \
+ /home/ling/graphicsh/PJ1/glew/include/GL/glew.h /usr/include/GL/glu.h \
  /usr/include/GL/gl.h

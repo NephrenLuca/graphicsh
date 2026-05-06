@@ -1,7 +1,8 @@
 glfw/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o: \
- /home/ling/graphicsh/glfw/tests/glfwinfo.c /usr/include/stdc-predef.h \
- /home/ling/graphicsh/glfw/deps/vulkan/vulkan.h \
- /home/ling/graphicsh/glfw/deps/vulkan/vk_platform.h \
+ /home/ling/graphicsh/PJ1/glfw/tests/glfwinfo.c \
+ /usr/include/stdc-predef.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/vulkan/vulkan.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/vulkan/vk_platform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -19,9 +20,10 @@ glfw/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/ling/graphicsh/glfw/deps/glad/glad.h \
- /home/ling/graphicsh/glfw/deps/KHR/khrplatform.h /usr/include/inttypes.h \
- /home/ling/graphicsh/glfw/include/GLFW/glfw3.h /usr/include/GL/gl.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/glad/glad.h \
+ /home/ling/graphicsh/PJ1/glfw/deps/KHR/khrplatform.h \
+ /usr/include/inttypes.h \
+ /home/ling/graphicsh/PJ1/glfw/include/GLFW/glfw3.h /usr/include/GL/gl.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
@@ -59,4 +61,4 @@ glfw/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /home/ling/graphicsh/glfw/deps/getopt.h
+ /usr/include/strings.h /home/ling/graphicsh/PJ1/glfw/deps/getopt.h

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ling/graphicsh/glfw/deps/glad.c" "glfw/tests/CMakeFiles/sharing.dir/__/deps/glad.c.o" "gcc" "glfw/tests/CMakeFiles/sharing.dir/__/deps/glad.c.o.d"
-  "/home/ling/graphicsh/glfw/tests/sharing.c" "glfw/tests/CMakeFiles/sharing.dir/sharing.c.o" "gcc" "glfw/tests/CMakeFiles/sharing.dir/sharing.c.o.d"
+  "/home/ling/graphicsh/PJ1/glfw/deps/glad.c" "glfw/tests/CMakeFiles/sharing.dir/__/deps/glad.c.o" "gcc" "glfw/tests/CMakeFiles/sharing.dir/__/deps/glad.c.o.d"
+  "/home/ling/graphicsh/PJ1/glfw/tests/sharing.c" "glfw/tests/CMakeFiles/sharing.dir/sharing.c.o" "gcc" "glfw/tests/CMakeFiles/sharing.dir/sharing.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

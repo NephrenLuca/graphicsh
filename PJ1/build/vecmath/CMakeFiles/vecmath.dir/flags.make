@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGLEW_STATIC
 
-CXX_INCLUDES = -I/home/ling/graphicsh/vecmath/include
+CXX_INCLUDES = -I/home/ling/graphicsh/PJ1/vecmath/include
 
 CXX_FLAGS =  --std=gnu++11 -g -Wall -Wno-unused-variable
 

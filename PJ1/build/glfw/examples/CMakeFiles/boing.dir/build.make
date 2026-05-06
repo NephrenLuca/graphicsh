@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ling/graphicsh
+CMAKE_SOURCE_DIR = /home/ling/graphicsh/PJ1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ling/graphicsh/build
+CMAKE_BINARY_DIR = /home/ling/graphicsh/PJ1/build
 
 # Include any dependencies generated for this target.
 include glfw/examples/CMakeFiles/boing.dir/depend.make
@@ -70,32 +70,32 @@ include glfw/examples/CMakeFiles/boing.dir/progress.make
 include glfw/examples/CMakeFiles/boing.dir/flags.make
 
 glfw/examples/CMakeFiles/boing.dir/boing.c.o: glfw/examples/CMakeFiles/boing.dir/flags.make
-glfw/examples/CMakeFiles/boing.dir/boing.c.o: /home/ling/graphicsh/glfw/examples/boing.c
+glfw/examples/CMakeFiles/boing.dir/boing.c.o: /home/ling/graphicsh/PJ1/glfw/examples/boing.c
 glfw/examples/CMakeFiles/boing.dir/boing.c.o: glfw/examples/CMakeFiles/boing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/examples/CMakeFiles/boing.dir/boing.c.o"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/boing.dir/boing.c.o -MF CMakeFiles/boing.dir/boing.c.o.d -o CMakeFiles/boing.dir/boing.c.o -c /home/ling/graphicsh/glfw/examples/boing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/examples/CMakeFiles/boing.dir/boing.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/boing.dir/boing.c.o -MF CMakeFiles/boing.dir/boing.c.o.d -o CMakeFiles/boing.dir/boing.c.o -c /home/ling/graphicsh/PJ1/glfw/examples/boing.c
 
 glfw/examples/CMakeFiles/boing.dir/boing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/boing.dir/boing.c.i"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/examples/boing.c > CMakeFiles/boing.dir/boing.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/examples/boing.c > CMakeFiles/boing.dir/boing.c.i
 
 glfw/examples/CMakeFiles/boing.dir/boing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/boing.dir/boing.c.s"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/examples/boing.c -o CMakeFiles/boing.dir/boing.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/examples/boing.c -o CMakeFiles/boing.dir/boing.c.s
 
 glfw/examples/CMakeFiles/boing.dir/__/deps/glad.c.o: glfw/examples/CMakeFiles/boing.dir/flags.make
-glfw/examples/CMakeFiles/boing.dir/__/deps/glad.c.o: /home/ling/graphicsh/glfw/deps/glad.c
+glfw/examples/CMakeFiles/boing.dir/__/deps/glad.c.o: /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 glfw/examples/CMakeFiles/boing.dir/__/deps/glad.c.o: glfw/examples/CMakeFiles/boing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/examples/CMakeFiles/boing.dir/__/deps/glad.c.o"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/boing.dir/__/deps/glad.c.o -MF CMakeFiles/boing.dir/__/deps/glad.c.o.d -o CMakeFiles/boing.dir/__/deps/glad.c.o -c /home/ling/graphicsh/glfw/deps/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/examples/CMakeFiles/boing.dir/__/deps/glad.c.o"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/boing.dir/__/deps/glad.c.o -MF CMakeFiles/boing.dir/__/deps/glad.c.o.d -o CMakeFiles/boing.dir/__/deps/glad.c.o -c /home/ling/graphicsh/PJ1/glfw/deps/glad.c
 
 glfw/examples/CMakeFiles/boing.dir/__/deps/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/boing.dir/__/deps/glad.c.i"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/glfw/deps/glad.c > CMakeFiles/boing.dir/__/deps/glad.c.i
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ling/graphicsh/PJ1/glfw/deps/glad.c > CMakeFiles/boing.dir/__/deps/glad.c.i
 
 glfw/examples/CMakeFiles/boing.dir/__/deps/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/boing.dir/__/deps/glad.c.s"
-	cd /home/ling/graphicsh/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/glfw/deps/glad.c -o CMakeFiles/boing.dir/__/deps/glad.c.s
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ling/graphicsh/PJ1/glfw/deps/glad.c -o CMakeFiles/boing.dir/__/deps/glad.c.s
 
 # Object files for target boing
 boing_OBJECTS = \
@@ -117,18 +117,18 @@ glfw/examples/boing: /usr/lib/x86_64-linux-gnu/libXinerama.so
 glfw/examples/boing: /usr/lib/x86_64-linux-gnu/libXxf86vm.so
 glfw/examples/boing: /usr/lib/x86_64-linux-gnu/libXcursor.so
 glfw/examples/boing: glfw/examples/CMakeFiles/boing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable boing"
-	cd /home/ling/graphicsh/build/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/boing.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ling/graphicsh/PJ1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable boing"
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/boing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw/examples/CMakeFiles/boing.dir/build: glfw/examples/boing
 .PHONY : glfw/examples/CMakeFiles/boing.dir/build
 
 glfw/examples/CMakeFiles/boing.dir/clean:
-	cd /home/ling/graphicsh/build/glfw/examples && $(CMAKE_COMMAND) -P CMakeFiles/boing.dir/cmake_clean.cmake
+	cd /home/ling/graphicsh/PJ1/build/glfw/examples && $(CMAKE_COMMAND) -P CMakeFiles/boing.dir/cmake_clean.cmake
 .PHONY : glfw/examples/CMakeFiles/boing.dir/clean
 
 glfw/examples/CMakeFiles/boing.dir/depend:
-	cd /home/ling/graphicsh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh /home/ling/graphicsh/glfw/examples /home/ling/graphicsh/build /home/ling/graphicsh/build/glfw/examples /home/ling/graphicsh/build/glfw/examples/CMakeFiles/boing.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ling/graphicsh/PJ1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ling/graphicsh/PJ1 /home/ling/graphicsh/PJ1/glfw/examples /home/ling/graphicsh/PJ1/build /home/ling/graphicsh/PJ1/build/glfw/examples /home/ling/graphicsh/PJ1/build/glfw/examples/CMakeFiles/boing.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/examples/CMakeFiles/boing.dir/depend
 
